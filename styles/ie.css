@@ -1,0 +1,18 @@
+html {
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+
+body {
+	position: relative;
+}
+
+#wrapper {
+	position: absolute;
+	top: 50%;
+}
+
+#container {
+	position: relative;
+	top: -50%;
+}

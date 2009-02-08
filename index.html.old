@@ -1,0 +1,123 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+    <script type="text/javascript" src="scripts/jquery.js"></script>
+    <script type="text/javascript" src="scripts/script.js"></script>
+
+	<link rel="stylesheet" href="styles/style.css" type="text/css" media="screen" />
+	<title>sognat's portfolio</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+	<!--[if lte IE 6]>
+		<link rel="stylesheet" href="ie.css" type="text/css" media="screen" />
+	<![endif]-->
+
+</head>
+<body>
+<div id="wrapper">
+<div id="container">
+    <div id="top">
+        <h1>sognat's portfolio</h1>
+    </div>
+
+    <dl id="content">
+        <dt id="about"><a>About</a></dt>
+        <dd id="about_def"><p>Welcome! My name is <strong>Grzegorz Świrski</strong> I'm young developer from Cracow, Poland especially interested in web and iPhone technologies.</p>
+			<p>My skills, and projects that uses it, you can find in "Interests &amp; Skills" Section.</p>
+			<p>Visit <a href="/blog">blog</a> to read more about me and my work.</p>
+			<p>You can even see what I'm actually doing by <a href="http://twitter.com/sognat">twitter</a>.</p>
+			
+		 </dd>
+        <dt id="skills"><a>Interests &amp; Skills</a></dt>
+        <dd id="skills_def">
+            <div>
+                <a class="level2">apache</a>
+                <a class="level1">cocoa</a>
+                <a class="level2">css</a>
+                <a class="level4">databases</a>
+                <a class="level3">design</a>
+                <a class="level2">interfaces</a>
+				<a class="level3">javascript</a>
+                <a class="level5">mysql</a>
+                <a class="level3">photoshop</a>
+                <a class="level5">php</a>
+                <a class="level4">postgresql</a>
+                <a class="level2">programming</a>
+                <a class="level3">ruby</a>
+                <a class="level2">scripts</a>
+				<a class="level4">symfony</a>
+                <a class="level4">webdesign</a>
+                <a class="level2">xhtml</a>
+            </div>
+        </dd>
+        
+        <dt id="offer"><a>Offer</a></dt>
+        <dd id="offer_def">
+        	<ul>
+        		<li>Web pages</li>
+        		<li>iPhone Applications</li>
+        		<li>Database designs</li>
+        	</ul>
+        </dd>
+        
+        <dt id="portfolio"><a>Works</a></dt>
+        <dd id="portfolio_def">
+            <div style="width: 50%; float: left; text-align: center">
+                <h4>Designs</h4>
+                <ul style="text-align: left; list-style-type: none">
+                    <li><a>sognat</a></li>
+                    <li><a>patterns</a></li>
+                    <li><a>kode group</a></li>
+                </ul>
+            </div>
+            <div style="width: 50%; float: left; text-align: center">
+                <h4>Scripts</h4>
+                <ul style="text-align: left; list-style-type: none">
+                    <li><a>dbFramework</a></li>
+                    <li><a>tiny cms</a></li>
+                    <li><a>coloni</a></li>
+                </ul>
+            </div>
+        </dd>
+        
+        <dt id="contact"><a>Contact</a></dt>
+        <dd id="contact_def">
+            <div>
+                <h4>E-mail / Jabber:</h4>
+                <a href="mailto:sognat@gmail.com">sognat@gmail.com</a>
+                <h4>GG:</h4>
+                <a href="gg:136335">136335</a>
+                <h4>write to me by this page:</h4>
+                <a>show form &raquo;</a>
+            </div>
+        </dd>
+        
+        <dt id="resources"><a>Elsewhere</a></dt>
+        <dd id="resources_def" class="last">
+            <p>
+            	<a href="/blog">blog</a>
+            	<a href="http://twitter.com/sognat">twitter</a>
+            	<a href="http://www.linkedin.com/in/sognat">linked.id</a>
+            	<br />
+            	<a href="http://delicious.com/sognat">del.icio.us</a>
+            	<a href="#">flickr</a>
+            	<a href="http://digg.com/users/sognat">digg</a>
+            </p>
+        </dd>
+    </dl>
+    <div id="footer">
+        <span>Copyright &copy; 2008 by <strong>sognat</strong><span>
+    </div>
+    <div id="tooltip">
+    	<h3><span>header</span></h3>
+		  <p>text</p>
+		  <ul>
+		    <li id="projects"><a>Projects</a></li>
+		    <li id="posts"><a>Blog posts</a></li>
+		  </ul>
+    </div>
+	<div id="light"> </div>
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,317 @@
+    /**************/
+    /*** Layout ***/
+    /**************/
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+    
+	html, body {
+		height: 100%;
+	}
+	
+	body {
+		display: table;
+		width: 143px;
+		margin: 0 auto;
+	}
+	
+	#wrapper {
+		display: table-cell;
+		vertical-align: middle;
+	}
+
+    #container {
+        position: relative;
+        margin: 100px auto;
+        width:  200px;
+    }
+    
+    #top {
+        width: 200px;
+        height: 48px;
+        margin-bottom: -10px;
+    }
+    
+    #footer {
+        width: 200px;
+        height: 51px;
+		margin-top: -5px;
+    }
+    
+    #top *, #footer * {
+        display: none;
+    }
+    
+    #content {
+        padding-left: 7px;
+        text-align: center;
+    }
+    
+    #font_select {
+        position: absolute;
+        top: 27px;
+        left: 17px;
+    }
+
+    dt {
+        clear: both;
+    }
+
+    dd {
+      text-align: left;
+      display: none;
+    }
+    
+    dd#about_def {
+    	display: block;
+    }
+    
+    dd div, p {
+        margin: 2px 0px 4px 0px;
+    }
+    
+    h4 {
+        padding: 0px 0px 3px 0px;
+    }
+    
+	a {
+		cursor: pointer;
+	}
+
+    #skills_def, #resources_def {
+        text-align: center;
+    }
+
+    #contact_def {
+        padding-left: 20px;
+    }
+    
+    #contact_def div {
+        margin: 0px 0px 4px 0px;
+    }
+    
+    #contact_def h4{
+        margin-left: -5px;
+        padding: 3px 0px 0px 0px;
+    }
+    
+    .tooltip {
+				padding: 10px;
+        position: absolute;
+        width: 200px;
+        top: 50px;
+        left: 217px;
+        display: none;
+    }
+
+	#light {
+		width: 100%;
+		height: 100%;
+		background-color: #FFFFFF;
+		position: absolute;
+		top: 0px;
+		left: 0px;
+		display: none;
+	}
+    
+    /**************/
+    /*** Fonts ****/
+    /**************/
+    body {
+		font: 11px "Lucida Grande", Lucida, Verdana, sans-serif;
+    }
+    
+    dt {
+        font-size: 13px;
+    }
+    
+    dd, .tooltip {
+		text-align: justify;
+    }
+    
+    h3 {
+        font-size: 13px;
+    }
+    
+    h3, h4, strong {
+        font-weight: normal;
+    }
+    
+    a {
+        text-decoration: none;
+		outline: none;
+    }
+		
+	
+    a:hover {
+        border-bottom: 1px dotted #b3b3b3;
+    }
+    
+    dt a:hover {
+        border: none;
+    }
+    
+    .level1, level2 {
+        font-size: 1em;
+    }
+
+    .level3, .level4 {
+        font-size: 1.11em;
+    }
+    
+    .level5 {
+        font-size: 1.33em;
+    }
+    
+    #font_select {
+        font-size: 9px;
+    }
+    
+    #font_select a:hover {
+        border: none;
+    }
+    
+    .big {
+        font-size: 12px;
+    }
+    
+    .medium {
+        font-size: 10px;
+    }
+    
+    .small {
+        font-size: 9px;
+    }
+    
+    /**************/
+    /*** Colors ***/
+    /**************/
+    html {
+        background: url('/images/background.png');
+        color: #555555;
+    }
+    
+    a:hover {
+        color: #848484;   
+    }
+    
+    dd a, #font_select {
+        color: #848484;
+    }
+    
+    #about_def a {
+    	color: #555555;
+    }
+    
+    dd a:hover {
+        color: #555555;
+    }
+    
+    .tooltip, .level1 {
+        color: #b3b3b3;
+    }
+    
+    .tooltip {
+        background: #f7f7f7;
+    }
+    
+    h3 {
+        color: #b2670f;
+    }
+    
+    dd, .level2, .level3 {
+        color: #848484;
+    }
+    
+    h4, strong, .level4, .level5 {
+        color: #555555;
+    }
+    
+    .active {
+        color: #b2670f;
+    }
+    
+    a.active:hover {
+        color: #b2670f;
+        border: none;
+    }
+    
+    #font_select a:hover {
+        color: #555555;
+    }
+    
+    /**************/
+    /** Imagery ***/
+    /**************/
+		
+		.tooltip ul {
+			height: 16px;
+			margin-: 10px;
+		}
+		
+		.tooltip ul li {
+			float: left;
+			display: block;
+			font-size: 12px;
+			color: #555555;
+			
+			background-image: url('/images/down.png');
+			background-repeat: no-repeat;
+		}
+		
+		.tooltip ul li#projects {
+			padding-right: 9px;
+			background-position: top right;
+			margin-right: 19px;
+		}
+		
+		.tooltip ul li#posts {
+			padding-left: 9px;
+			background-position: top left;
+			margin-left: 35px;
+		}
+		
+		.tooltip li a:hover, .tooltip li a.active {
+			color: #b2670f;
+			border: none;
+		}
+		
+		.tooltip #posts { text-align: right; }
+		
+    #top {
+        background-image: url('/images/top.png');
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    
+    #footer {
+        background-image: url('/images/footer.png');
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+	h2 {
+		position: absolute;
+		bottom: 0px;
+		right: 0px;
+		background-color: #FFF;
+		padding: 5px 80px 5px 10px;
+	}
+	
+	h2 a {
+		font-size: 10px;
+		font-weight: normal;
+		display: block;
+		width: 70px;
+		position: absolute;
+		top: 5px;
+		right: 7px;
+		line-height: 10px;
+	}
+	
+	h2 a:hover {
+		text-decoration: none;
+		border: none;
+		color: #b2670f;
+	}
