@@ -1,0 +1,103 @@
+body {
+  background: #f5f5f5;
+  color: #555555;
+  font: 300 16px/1.5 "Palatino Linotype", Georgia, serif;
+  text-shadow: 0px 1px 1px white; }
+
+a, input#send {
+  /*background: #FFF7FF;*/
+  color: #07C;
+  text-decoration: none;
+  border-bottom: 1px solid #DEDEDE; }
+
+a:hover, input#send:hover {
+  -webkit-transition: all 0.3s linear;
+  /*border-bottom: 1px solid #9015b6;
+  color: #9015b6;*/
+  color: inherit;
+  background: #EEE;
+  border-color: #EEE; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal; }
+
+h1, h2 {
+  margin: auto;
+  text-align: center;
+  width: 750px; }
+
+h1 {
+  font-size: 30px; }
+
+h2 {
+  font-size: 24px; }
+
+h3 {
+  color: #000;
+  font-size: 24px;
+  font-style: italic; }
+
+strong {
+  color: #000; }
+
+.amp {
+  font-family: Baskerville, Palatino, "Book Antiqua", serif;
+  font-style: italic; }
+
+.header, .header-small {
+  background: #1a1c1d;
+  color: white;
+  padding: 50px 0px;
+  text-shadow: none; }
+  .header .who, .header-small .who {
+    color: #fd971f; }
+  .header .what, .header-small .what {
+    color: #9ee22e; }
+
+.header-small {
+  padding: 10px 0px; }
+
+.header-small h1 {
+  font-size: 24px; }
+
+.info {
+  font-size: 1.5em;
+  color: #444; }
+
+.article > * {
+  padding: 10px 0px;
+  margin: auto;
+  width: 750px; }
+
+.post h3 {
+  text-align: center; }
+
+.post .date {
+  text-align: center;
+  margin-top: -20px;
+  font-size: 14px;
+  color: #AAA; }
+
+textarea {
+  background: #EEE;
+  border: none;
+  display: block;
+  width: 500px;
+  height: 100px;
+  font: 300 16px/1.5 "Palatino Linotype", Georgia, serif;
+  border-left: 5px solid #DDD; }
+
+input#send {
+  border: none;
+  border-bottom: 1px solid #DEDEDE;
+  background: #f5f5f5;
+  cursor: pointer;
+  margin: 20px 0px;
+  font: 300 16px/1.5 "Palatino Linotype", Georgia, serif; }
+
+.copyright {
+  color: #999;
+  font: 15px HelveticaNeue-Light, "Helvetica Neue Light", "Helvetica Neue", Helvetica, arial, sans-serif;
+  text-align: center;
+  text-shadow: 0px 1px 1px white;
+  margin: 20px 0px 10px 0px; }
