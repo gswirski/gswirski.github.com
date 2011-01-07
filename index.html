@@ -1,82 +1,72 @@
-<!DOCTYPE html> 
-<html lang="en"> 
-<head> 
-  <meta charset="utf-8" /> 
-  <title>Grzegorz Świrski</title> 
-  <link rel="stylesheet" href="styles/reset.css" /> 
-  <link rel="stylesheet" href="styles/main.css" />
-</head> 
-<body class="home">
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Grzegorz Świrski</title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
     <div class="header">
-        <h1><a>sognat by Świrski</a></h1>
-        
-        <ul class="navigation">
-            <li><a href="index.html" class="active">Home</a></li>
-            <li><a href="projects.html">Work</a></li>
-            <li><a href="contact.html">Contact</a></li>
-            <li><a href="http://mini.sognat.com">Journal</a></li>
-        </ul>
+      <h1>
+        Hello.
+        I'm <span class="who">Grzegorz Świrski</span>,
+        developer.
+      </h1>
+
+      <h2>
+        I build Rock-Solid <span class="what">web applications</span>.
+      </h2>
     </div>
-    
-    <div class="content">
-            
-            <div class="column">
-                <a href="http://github.com/sognat/contener" class="project library">
-                    <span class="title">Contener</span>
-                    <span class="paragraph">
-                        Something between CMS and Framework. It allows developer 
-                        to make almost every content based project more efficient, 
-                        convenient and without limits. Specifically it is CMF.
-                    </span>
-                    <span class="more">View GitHub project page</span>
-                </a>
-                
-                <a href="http://github.com/sognat/hydra" class="project library">
-                    <span class="title">Hydra</span>
-                    <span class="paragraph">
-                        Super lightweight yet powerful ORM for PHP built on top 
-                        of the Doctrine DBAL.
-                    </span>
-                    <span class="more">View GitHub project page</span>
-                </a>
-            </div>
-            
-            <div class="column">
-                <a href="http://webleader.pl" class="project service">
-                    <span class="title">WebLeader</span>
-                    <span class="paragraph">
-                        Joint project of me, Cezary Jeremicz and Grzegorz 
-                        Piechuła. Commercial stuff.
-                    </span>
-                    <span class="more">View online</span>
-                </a>
-                
-                <a href="http://phpgeek.pl" class="project service">
-                    <span class="title">PHPGeek</span>
-                    <span class="paragraph">
-                        [Polish] Blog, where I write about PHP, programming 
-                        habits, good practices and tools. Trying to bust myths 
-                        that PHP is ugly.
-                    </span>
-                    <span class="more">View online</span>
-                </a>
-            </div>
-            
-            <h2><a href="projects.html">I'll code for food</a></h2>
-            
-            <div class="column">
-                <h3>Twitter</h3>
-                <blockquote><p>
-                    Switched to Chrome after a month of crashing Firefox every 
-                    day. Now found that: http://j.mp/9UVcaT . Come back of pain? 
-                    Equivalent?
-                </p></blockquote> 
-                <a class="more" href="http://twitter.com/sognat">
-                    You should follow me on Twitter
-                </a>
-            </div>
+    <div class="article">
+      <p class="info">
+        I'm co-founder <span class="amp">&amp;</span> programmer at
+        <a href="http://webleader.pl">WebLeader.pl</a> - small agency
+        providing <strong>design</strong> and <strong>development</strong>
+        solutions.
+
+        I&nbsp;<a href="http://github.com/sognat">contribute to OpenSource</a>
+        in my spare time.</p>
+
+      <p>
+        For me, using right tool for the job is essential to deliver modern,
+        standard-compliant solution. I try to complement my toolbox
+        continuously and dig throughout API docs quite often.
+
+        My current stack includes Ruby for most web applications work and
+        scripting. Sometimes PHP, if you ask nicely.
+      </p>
+      <p>
+        Frontend work is done using latest standards including goodies from
+        HTML 5 <span class="amp">&amp;</span> CSS 3 decorated with
+        non-intrusive JavaScript. Oh, and it degradates gracefully.
+      </p>
+
+      <p class="status">Not available for hire until February, 2011.</p>
+
+      <h3>Questions?</h3>
+      <form>
+        <div class="one-third">
+          <p>
+            You can email me at
+            <a href="mailto:grzegorz@swirski.name">grzegorz@swirski.name</a>
+            or use the box.
+          </p>
+
+          <p>Use it for good, not evil.</p>
+        </div>
+
+        <div class="two-thirds">
+          <textarea
+            placeholder="Type your name, email and message here."></textarea>
+            <input type="submit" name="send" id="send" value="Send message" />
+        </div>
+      </form>
     </div>
-    
+
     <div class="copyright">Copyright &copy; 2010 by Grzegorz Świrski</div>
-</body> 
+
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+  </body>
 </html>
