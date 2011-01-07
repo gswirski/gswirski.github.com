@@ -1,19 +1,22 @@
 body {
   background: #f5f5f5;
   color: #555555;
-  font: 300 16px/1.5 "Palatino Linotype", Georgia, serif;
+  font: 300 16px/1.5 "Palatino Linotype", Linotype, "URW Palladio L", Palladio, "Book Antiqua", Georgia, sans-serif;
   text-shadow: 0px 1px 1px white; }
 
+p {
+  margin-bottom: 15px; }
+
 a, input#send {
-  /*background: #FFF7FF;*/
+  border-bottom: 1px solid #DEDEDE;
   color: #07C;
-  text-decoration: none;
-  border-bottom: 1px solid #DEDEDE; }
+  text-decoration: none; }
 
 a:hover, input#send:hover {
-  -webkit-transition: all 0.3s linear;
-  /*border-bottom: 1px solid #9015b6;
-  color: #9015b6;*/
+  transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
   color: inherit;
   background: #EEE;
   border-color: #EEE; }
@@ -35,7 +38,8 @@ h2 {
 h3 {
   color: #000;
   font-size: 24px;
-  font-style: italic; }
+  font-style: italic;
+  margin-top: 1em; }
 
 strong {
   color: #000; }
@@ -60,12 +64,17 @@ strong {
 .header-small h1 {
   font-size: 24px; }
 
-.info {
+.info, .status {
   font-size: 1.5em;
-  color: #444; }
+  color: #444;
+  margin: 20px 0px; }
 
-.article > * {
-  padding: 10px 0px;
+.status {
+  text-align: center;
+  color: #CCC;
+  font-style: italic; }
+
+.article {
   margin: auto;
   width: 750px; }
 
@@ -74,17 +83,30 @@ strong {
 
 .post .date {
   text-align: center;
-  margin-top: -20px;
+  margin-top: -5px;
   font-size: 14px;
   color: #AAA; }
+
+.one-third {
+  margin: 0px 20px 0px 0px;
+  width: 180px;
+  float: left; }
+
+.two-thirds {
+  width: 550px;
+  float: left; }
+
+form {
+  overflow: hidden;
+  zoom: 1; }
 
 textarea {
   background: #EEE;
   border: none;
   display: block;
-  width: 500px;
+  width: 550px;
   height: 100px;
-  font: 300 16px/1.5 "Palatino Linotype", Georgia, serif;
+  font: 300 16px/1.5 "Palatino Linotype", Linotype, "URW Palladio L", Palladio, "Book Antiqua", Georgia, sans-serif;
   border-left: 5px solid #DDD; }
 
 input#send {
@@ -93,7 +115,8 @@ input#send {
   background: #f5f5f5;
   cursor: pointer;
   margin: 20px 0px;
-  font: 300 16px/1.5 "Palatino Linotype", Georgia, serif; }
+  padding: 0px 0px;
+  font: 300 16px/1.5 "Palatino Linotype", Linotype, "URW Palladio L", Palladio, "Book Antiqua", Georgia, sans-serif; }
 
 .copyright {
   color: #999;
