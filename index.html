@@ -3,8 +3,8 @@
   <head>
     <meta charset="utf-8" />
     <title>Grzegorz Świrski</title>
-    <link rel="stylesheet" href="css/reset.css" />
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="stylesheets/reset.css" />
+    <link rel="stylesheet" href="stylesheets/style.css" />
   </head>
   <body>
     <div class="header">
@@ -15,7 +15,7 @@
       </h1>
 
       <h2>
-        I build Rock-Solid <span class="what">web applications</span>.
+        I build rock-solid <span class="what">web applications</span>.
       </h2>
     </div>
     <div class="article">
@@ -33,8 +33,8 @@
         standard-compliant solution. I try to complement my toolbox
         continuously and dig throughout API docs quite often.
 
-        My current stack includes Ruby for most web applications work and
-        scripting. Sometimes PHP, if you ask nicely.
+        My current stack includes Ruby for most web applications and
+        scripting work. Sometimes PHP, if you ask nicely.
       </p>
       <p>
         Frontend work is done using latest standards including goodies from
@@ -42,10 +42,10 @@
         non-intrusive JavaScript. Oh, and it degradates gracefully.
       </p>
 
-      <p class="status">Not available for hire until February, 2011.</p>
+      <p class="status">Not available for hire until March, 2011.</p>
 
       <h3>Questions?</h3>
-      <form>
+      <form method="post" action="http://sognat.com/send-mail.php">
         <div class="one-third">
           <p>
             You can email me at
@@ -57,7 +57,7 @@
         </div>
 
         <div class="two-thirds">
-          <textarea
+          <textarea name="message" id="message"
             placeholder="Type your name, email and message here."></textarea>
             <input type="submit" name="send" id="send" value="Send message" />
         </div>
@@ -65,5 +65,7 @@
     </div>
 
     <div class="copyright">Copyright &copy; 2010 by Grzegorz Świrski</div>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+    <script type="text/javascript" src="javascripts/script.js"></script>
   </body>
 </html>

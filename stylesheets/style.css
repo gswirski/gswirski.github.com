@@ -49,14 +49,15 @@ strong {
   font-style: italic; }
 
 .header, .header-small {
-  background: #1a1c1d;
-  color: white;
+  background: 10px 180px url('../images/header.jpg') #1a1c1d;
+  border-bottom: 1px solid white;
+  color: #BBB;
   padding: 50px 0px;
-  text-shadow: none; }
+  text-shadow: 0px 2px 1px #000; }
   .header .who, .header-small .who {
-    color: #fd971f; }
+    color: #FFF; }
   .header .what, .header-small .what {
-    color: #9ee22e; }
+    color: #FFF; }
 
 .header-small {
   padding: 10px 0px; }
@@ -98,7 +99,8 @@ strong {
 
 form {
   overflow: hidden;
-  zoom: 1; }
+  zoom: 1; 
+  }
 
 textarea {
   background: #EEE;
