@@ -1,0 +1,31 @@
+.timeline {
+  background: #fff;
+  width: 30px;
+  margin: auto;
+  height: 1000px;
+}
+
+.timeline > div {
+  width: 6px;
+  height: 100px;
+  background: rgb(97, 162, 185);
+}
+
+.timeline > div:hover {
+  background: red;
+}
+
+.timeline .life {
+}
+
+.timeline .right {
+  margin-left: 24px;
+
+}
+
+.timeline .triangle {
+  height: 20px;
+  -webkit-transform: skew(50deg);
+  border-radius: 0px;
+  margin-left: 12px;
+}
