@@ -13,9 +13,9 @@ body {
      -moz-animation-fill-mode: forwards;
           animation-fill-mode: forwards;
 
-  -webkit-animation-duration: 0.2s;
-     -moz-animation-duration: 0.2s;
-          animation-duration: 0.2s;
+  -webkit-animation-duration: 0.25s;
+     -moz-animation-duration: 0.25s;
+          animation-duration: 0.25s;
 
   -webkit-animation-delay: 0.25s;
      -moz-animation-delay: 0.25s;
@@ -46,7 +46,7 @@ body {
 .card {
   height: 250px;
   margin: auto;
-  width: 600px;
+  width: 620px;
 }
 
 .profile-photo {
@@ -60,7 +60,7 @@ body {
 .info {
   float: left;
   margin: 50px 0 0 50px;
-  width: 300px;
+  width: 320px;
   height: 125px;
 }
 
