@@ -105,7 +105,7 @@ h2 a:hover {
   color: #000;
 }
 
-ul {
+.personal ul {
   display: block;
   list-style-type: none;
   padding: 0px;
@@ -113,7 +113,7 @@ ul {
   margin: -5px 0 0 -16px;
 }
 
-li {
+.personal li {
   display: inline-block;
   margin: 0;
   padding: 0 10px;
@@ -140,4 +140,50 @@ li {
 
 .icon-mail {
   font-size: 21px;
+}
+
+body.shutter {
+  background-color: #250e0b;
+  color: #fff;
+}
+
+body.privacy {
+  display: block;
+}
+
+body.shutter .card {
+  width: 800px;
+}
+
+body.shutter .info {
+  width: 400px;
+}
+
+body.shutter a {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+body.shutter a:hover {
+  color: #fff;
+}
+
+body.shutter .info.privacy {
+  width: 100%;
+  color: rgba(255, 255, 255, 0.7);
+  line-height: 1.5;
+}
+
+body.shutter .info.privacy h1,
+body.shutter .info.privacy h2,
+body.shutter .info.privacy h3,
+body.shutter .info.privacy h4,
+body.shutter .info.privacy h5,
+body.shutter .info.privacy h6,
+body.shutter .info.privacy strong {
+  color: #fff;
+}
+
+body.shutter ul {
+  list-style-type: disc;
+  list-style-position: inside;
 }
