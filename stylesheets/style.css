@@ -187,3 +187,8 @@ body.shutter ul {
   list-style-type: disc;
   list-style-position: inside;
 }
+
+body.shutter .footer {
+  clear: both;
+  text-align: center;
+}
